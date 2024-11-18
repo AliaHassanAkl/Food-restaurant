@@ -1,0 +1,79 @@
+#Home{
+    padding-top: 10%
+}
+ .subSec  {
+    background-color: var(--color1);
+  
+    padding: 50px 100px;
+}
+.subSec h1{
+    color: var(--color3);
+    font-family: "Oswald", sans-serif;
+}
+#numbers h6{
+    color: var(--color3);
+    font-family: "Oswald", sans-serif;
+}
+#numbers .row{
+    text-transform: uppercase;
+    margin: auto;
+}
+.subSec button{
+    color: #fff;
+     background-color: var(--color3);
+     border: 1px solid var(--color3);
+     box-sizing: border-box;
+     text-align: center;
+     font-weight: bold;
+     padding: 10px 40px;
+     margin:30px 20px 30px 0px ;
+     font-family: "Oswald", sans-serif;
+}
+.subSec button:hover{
+    background-color: rgb(255, 255, 255, 0.6) !important;
+    color: var(--color1) !important;
+    border: 1px solid var(--color1);
+}
+.findTheMenu{
+    background-image: url(../../../public/images/464620004_10151765699309981_4482857235995511397_n.jpg);
+    /* background-repeat: no-repeat; */
+    
+    background-attachment:fixed;
+    position: relative;
+}
+.findTheMenu .row{
+    position: relative;
+}
+.findTheMenu .layer{
+    background-color:rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#massages h2{
+    color: var(--color3);
+    font-family: "Oswald", sans-serif;
+}
+#massages  .form-control{
+    border-color: var(--color1);
+    font-family: "Oswald", sans-serif;
+    
+}
+
+#massages  .submitBtn{
+    color: #fff;
+     background-color: var(--color3);
+     border: 1px solid var(--color3);
+     box-sizing: border-box;
+     text-align: center;
+     font-weight: bold;
+     padding: 10px 40px;
+     margin:30px 20px 30px 0px ;
+
+}
+#massages  .submitBtn:hover{
+    background-color: #fff !important;
+    color: var(--color3) !important;
+}

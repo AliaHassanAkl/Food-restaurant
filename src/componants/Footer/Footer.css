@@ -1,0 +1,29 @@
+#myfooter  {
+    background-color:var(--color1) ;
+}
+.footerLinks h4{
+    color: var(--color3);
+
+}
+.social_media .icon{
+    color: var(--color2);
+}
+.social_media .facebook:hover{
+    color: rgb(7, 7, 172) !important;
+    transition: .2s ease-in-out;
+}
+.social_media .insta:hover{
+    color: rgb(194, 49, 187) !important;
+    transition: .2s ease-in-out;
+}
+
+.social_media .youtube:hover{
+    color: rgb(172, 7, 7)!important;
+    transition: .2s ease-in-out;
+
+}
+.social_media .whatsapp:hover{
+    color: rgb(16, 204, 72)!important;
+    transition: .2s ease-in-out;
+
+}

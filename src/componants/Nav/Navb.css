@@ -1,0 +1,30 @@
+#myNav{
+    background-color:#fff;
+    width: 100%;
+    height: 10%;
+    max-width: 100%;
+    border-radius: 0px;
+}
+
+#myNav a {
+    color: var(--color4);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#myNav img{
+    max-width: 20%;
+    height: 90%;
+}
+#brandNum{
+    border: solid 1px var(--color1);
+    background-color: var(--color1);
+    box-sizing: border-box ;
+    color: #fff !important;
+}
+#brandNum:hover{
+    background-color: transparent;
+    color: #ce0707 !important; 
+    transition: .2s ease-in-out ;
+}
