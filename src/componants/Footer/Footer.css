@@ -1,0 +1,109 @@
+/* Footer Styling */
+#myfooter {
+    background-color: var(--color1);
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Start slightly lower */
+    animation: fadeInUp 1s ease-in-out forwards; /* Apply animation */
+}
+
+/* Footer Links */
+.footerLinks {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    justify-content: center;
+    gap: 20px; /* Spacing between links */
+}
+
+.footerLinks h4 {
+    color: var(--color3);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 15px; /* Adjust margin for better spacing */
+    transition: color 0.3s ease-in-out;
+}
+
+.footerLinks h4:hover {
+    color: var(--color2); /* Change color on hover */
+}
+
+/* Social Media Icons */
+.social_media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures proper layout on mobile */
+    gap: 15px; /* Adds spacing between icons */
+    margin-top: 10px;
+}
+
+.social_media .icon {
+    color: var(--color2);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social_media .icon:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+.social_media .facebook:hover {
+    color: rgb(7, 7, 172) !important;
+}
+
+.social_media .insta:hover {
+    color: rgb(194, 49, 187) !important;
+}
+
+.social_media .youtube:hover {
+    color: rgb(172, 7, 7) !important;
+}
+
+.social_media .whatsapp:hover {
+    color: rgb(16, 204, 72) !important;
+}
+
+/* Rights Section */
+.rights {
+    font-size: 14px;
+    color: var(--color3);
+    margin-top: 10px;
+}
+
+/* Animation for Footer Entrance */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .footerLinks {
+        flex-direction: column; /* Stack links vertically */
+        text-align: center;
+    }
+
+    .footerLinks h4 {
+        margin: 10px 0;
+    }
+
+    .social_media {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .social_media .icon {
+        font-size: 20px; /* Adjust icon size for small screens */
+    }
+
+    .rights {
+        font-size: 12px;
+    }
+}
